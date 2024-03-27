@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+  }
+.miTexto {
+    font-size: 80px;
+    color: green
+}
+
+.title {
+    font-size: 2.8em;
+    color: rgb(163, 18, 132);
+}
+
+.logo{
+    width: 300px;
+    height: 300px;
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em 1em 2em 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+
+}
+
+.cards:hover{
+    background-color: rgb(202, 72, 202);
+}
+
+#principal{
+    font-size: 4.5em;
+}
+
+#titulos{
+    /* Viewport width*/
+    width: 65vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cards-container{
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 5px solid rgb(109, 98, 98);
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
